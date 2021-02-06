@@ -6,10 +6,10 @@ using namespace std;
 // a struct function with reusable variables.
 struct encryption{
 
-    char encryp[200]; // array to store the 
+    char encryp[200]; // array to store the message if encryption is chosen
     char decryp[200]; //like zac efron
-    int key; //to shift like 4, 4, 5
-    char msg[200]; // entered my users
+    int key; //to shift like 6, 4, 5, so if encryption is chosen and the key is 3, zac efron will be encrypted to CDF HIURQ. 
+    char msg[200]; // entered by users
 
 };
 
